@@ -26,11 +26,272 @@ body {
     margin-right: auto;
 }
 
-img {
+/* 
+/* img {
     min-width: 100%;
     height: auto;
-}
+} * */
 
 .main-content {
     flex-grow: 1;
+}
+
+.header {
+    display: flex;
+}
+
+
+.headernav {
+    width: 600px;
+    height: 782px;
+    background-image: url(/img/Rectangle1\(2\).png);
+}
+
+.header-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    display: flex;
+    padding-top: 328px;
+    padding-left: 158px;
+    padding-right: 157px;
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.header-button {
+    display: flex;
+    padding-left: 158px;
+}
+
+.button {
+
+    padding-left: 158px;
+    padding-right: 278px;
+    padding-bottom: 326px;
+    border: 0;
+    display: flex;
+    justify-content: center;
+    color: #FFF;
+    font-family: Bebas Neue;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 2px;
+    background: #1E90FF;
+    display: inline-flex;
+    padding: 12px 24px;
+    transition: background-color 0.4s ease;
+}
+
+.button:hover {
+    background-color: rgba(30, 144, 255, 0.80);
+}
+
+.button:active {
+    background: rgba(30, 144, 255, 0.60);
+}
+
+.span {
+    display: flex;
+}
+
+.span::before {
+    content: "";
+    width: 20px;
+    height: 19px;
+    margin-right: 12px;
+    background-image: url(/img/Vector.png);
+    /* display: flex; */
+
+}
+
+.img {
+    margin-right: 12px;
+    width: 20px;
+    height: 20px;
+}
+
+.header-right {
+    width: 100%;
+    max-width: 600px;
+    padding-top: 54px;
+    padding-left: 54px;
+    padding-right: 54px;
+    background-color: #fefefe;
+}
+
+.header-right-inner {
+    display: flex;
+    align-items: center;
+}
+
+.header-wrapper {
+    padding-bottom: 23px;
+}
+
+.headernav-heading {
+    margin-top: 0;
+    margin-bottom: 24px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: #222;
+    font-family: Bebas Neue;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+}
+
+.h2 {
+    margin-bottom: 4px;
+    margin-top: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    color: #222;
+    font-family: Bebas Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    transition: color 0.4s ease;
+}
+
+.h2:hover {
+    color: #1E90FF;
+}
+
+.h2:active {
+
+    background-color: rgba(30, 144, 255, 0.60);
+}
+
+.headernav-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-right-inner {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.header-list {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+    display: flex;
+    margin-bottom: 10px;
+
+
+}
+
+.header-list-item::before {
+    background-image: url(/img/icon-clock\1.svg);
+    background-repeat: no-repeat;
+}
+
+.header-link {
+    color: #222;
+    font-family: Bebas Neue;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+.img2 {
+    margin-right: 16px;
+}
+
+.header-line {
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+
+.b {
+    color: #888;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 24px;
+}
+
+.b2 {
+    color: #666;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.icon {
+    margin-top: 4px;
+    display: flex;
+}
+
+.span2 {
+    display: flex;
+}
+
+.span2::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/icon-clock\ 1.svg);
+    background-repeat: no-repeat;
+    margin-right: 4px;
+
+}
+
+.span3 {
+    display: flex;
+}
+
+.span3::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    background-image: url(/img/visibility_black_24dp1.svg);
+    background-repeat: no-repeat;
+    margin-right: 4px;
+
+}
+
+.button2 {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    color: #FFF;
+    font-family: Roboto Condensed;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border-radius: 4px;
+    background: #1E90FF;
+    transition: background-color 0.4s ease;
+}
+
+.button2:hover {
+    background-color: rgba(30, 144, 255, 0.80);
+}
+
+.button2:active {
+    background-color: rgba(30, 144, 255, 0.60);
 }
