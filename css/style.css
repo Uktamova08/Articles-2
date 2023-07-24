@@ -1,5 +1,5 @@
 :root{
-    --heading-colo:#222;
+    --heading-color:#222;
     --text-color:#888;
 }
 
@@ -154,7 +154,7 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
-    color:var(--heading-colo);
+    color:var(--heading-color);
     font-family: Bebas Neue;
     font-size: 24px;
     font-style: normal;
@@ -169,7 +169,7 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
-    color:var(--heading-colo);
+    color:var(--heading-color);
     font-family: Bebas Neue;
     font-size: 18px;
     font-style: normal;
@@ -215,7 +215,7 @@ body {
 }
 
 .header-link {
-    color:var(--heading-colo);
+    color:var(--heading-color);
     font-family: Bebas Neue;
     font-size: 18px;
     font-style: normal;
