@@ -1,3 +1,8 @@
+:root{
+    --heading-colo:#222;
+    --text-color:#888;
+}
+
 @font-face {
     font-family: 'Bebas Neue';
     src: url('font/BebasNeue-Regular.woff2') format('woff2'),
@@ -149,7 +154,7 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
-    color: #222;
+    color:var(--heading-colo);
     font-family: Bebas Neue;
     font-size: 24px;
     font-style: normal;
@@ -164,7 +169,7 @@ body {
     padding: 0;
     display: flex;
     align-items: center;
-    color: #222;
+    color:var(--heading-colo);
     font-family: Bebas Neue;
     font-size: 18px;
     font-style: normal;
@@ -210,7 +215,7 @@ body {
 }
 
 .header-link {
-    color: #222;
+    color:var(--heading-colo);
     font-family: Bebas Neue;
     font-size: 18px;
     font-style: normal;
@@ -231,7 +236,7 @@ body {
 
 
 .b {
-    color: #888;
+    color:var(--text-color);
     font-family: Roboto Condensed;
     font-size: 14px;
     font-style: normal;
